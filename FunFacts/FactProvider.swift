@@ -6,6 +6,9 @@
 //  Copyright © 2017 Zachary Jones. All rights reserved.
 //
 
+import GameKit
+
+
 struct FactProvider {
     
     let facts = [
@@ -20,6 +23,11 @@ struct FactProvider {
         "On average, it takes 66 days to form a new habit.",
         "Mammoths still walked the Earth when the Great Pyramid was being built."
     ]
+    
+    func randomFact() -> String {
+        let index = GKRandomSource.sharedRandom().nextInt(upperBound: facts.count)
+        return facts[index]
+    }
     
 }
 
