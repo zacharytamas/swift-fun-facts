@@ -13,6 +13,7 @@
 		B60F88E71EF1E610007F2FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60F88E61EF1E610007F2FE9 /* Assets.xcassets */; };
 		B60F88EA1EF1E610007F2FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60F88E81EF1E610007F2FE9 /* LaunchScreen.storyboard */; };
 		B6B418EA1EF341A000192A6E /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B418E91EF341A000192A6E /* FactProvider.swift */; };
+		B6B418EC1EF42CBC00192A6E /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B418EB1EF42CBC00192A6E /* BackgroundColorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B60F88E91EF1E610007F2FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60F88EB1EF1E610007F2FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6B418E91EF341A000192A6E /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		B6B418EB1EF42CBC00192A6E /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B60F88E81EF1E610007F2FE9 /* LaunchScreen.storyboard */,
 				B60F88EB1EF1E610007F2FE9 /* Info.plist */,
 				B6B418E91EF341A000192A6E /* FactProvider.swift */,
+				B6B418EB1EF42CBC00192A6E /* BackgroundColorProvider.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				B60F88E21EF1E60F007F2FE9 /* ViewController.swift in Sources */,
 				B60F88E01EF1E60F007F2FE9 /* AppDelegate.swift in Sources */,
+				B6B418EC1EF42CBC00192A6E /* BackgroundColorProvider.swift in Sources */,
 				B6B418EA1EF341A000192A6E /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
